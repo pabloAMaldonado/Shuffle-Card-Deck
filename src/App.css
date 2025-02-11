@@ -1,0 +1,44 @@
+
+
+#root {
+  margin: auto;
+width: 390px;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container > p {
+  position: relative;
+  top: -50px;
+  width: 304px;
+  height: fit-content;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* #timerCompo > span {
+  display: flex;
+  flex: column;
+}
+
+.jsRandom, .xorshift, .well512 {
+  display: flex;
+  flex-direction: column;
+} */

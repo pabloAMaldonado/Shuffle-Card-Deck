@@ -1,0 +1,17 @@
+{
+  "name": "shuffle_card_deck",
+  "version": "1.0.0",
+  "description": "The **Shuffle Card Deck** app aims to determine the fastest technique for shuffling a deck of cards that you can use in game applications. More importantly, it provides experience in measuring and evaluating app performance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "google-chrome & code . & vite",
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^3.0.5"
+  }
+}
